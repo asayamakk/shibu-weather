@@ -1,0 +1,34 @@
+<div class="wrapper">
+  <div class="profile">
+    <div class="profile--name">
+      まるまる さん
+    </div>
+    <div class="profile--icon">
+      <img class="profile--img" src="https://tabizine.jp/wp-content/uploads/2018/10/212040-07.jpg" alt="アイコン画像">
+    </div>
+  </div>
+  <h1>
+    渋谷区の天気
+  </h1>
+
+  <div class="weather-card">
+    <div class="weather-card--icon">
+      <img [src]="'https://openweathermap.org/img/wn/' + shibuyaWeatherIcon + '@2x.png'">
+    </div>
+    <div class="temp">
+      <div class="temp--main">
+        {{shibuyaTemp}}
+      </div>
+      <div class="temp--minmax">
+        <div class="temp--min">
+          {{shibuyaTempMin}}
+        </div>
+        <div class="temp--max">
+          {{shibuyaTempMax}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
